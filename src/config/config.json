@@ -1,0 +1,17 @@
+{
+    "title": "Vitenn",
+    "subtitle": "Tech Lead - Vue/Nuxt specialist",
+    "description": "Opinionated Vite Starter Template",
+    "url": "",
+    "img": "",
+    "img_size": {
+        "width": "1200",
+        "height": "630"
+    },
+    "locale": "en_US",
+    "twitter": "",
+    "twitter_card": "summary_large_image",
+    "theme_color": "#20e4cd",
+    "theme_color_secondary": "#4f65f6"
+}
+
