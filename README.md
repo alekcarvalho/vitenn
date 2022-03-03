@@ -19,13 +19,15 @@
 
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [WindiCSS](https://windicss.org/) - on-demand CSS utilities
 
 - 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 🎇  [Image tools](https://github.com/JonasKruckenberg/imagetools) - A toolbox of import directives for vitejs that can transform your image at compile-time
 
 <br>
 

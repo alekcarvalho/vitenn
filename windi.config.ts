@@ -12,6 +12,7 @@ export default defineConfig({
       },
       colors: {
         primary: "#315def",
+        secondary: "#ec4899",
       },
     },
   },

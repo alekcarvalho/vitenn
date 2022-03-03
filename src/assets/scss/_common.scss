@@ -1,0 +1,116 @@
+html,
+body,
+#app,
+.content {
+  @apply w-full text-black bg-gray-50;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply overflow-x-hidden;
+}
+
+main {
+  @apply flex flex-col min-h-screen;
+}
+
+.content {
+  @apply flex-grow mt-4 relative lg:mt-10;
+}
+
+.container {
+  @apply max-w-9xl mx-auto px-6 text-center;
+}
+
+section {
+  @apply py-10 lg:py-16;
+}
+
+//Typograph
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+.h1 {
+  @apply text-6xl lg:text-7xl;
+}
+.h2 {
+  @apply text-5xl lg:text-6xl;
+}
+.h3 {
+  @apply text-4xl lg:text-5xl;
+}
+.h4 {
+  @apply text-3xl lg:text-4xl;
+}
+.h5 {
+  @apply text-3xl;
+}
+.h6 {
+  @apply text-2xl;
+}
+
+//diplay
+
+.display-1 {
+  @apply text-7xl lg:text-9xl;
+}
+
+.display-2 {
+  @apply text-7xl lg:text-8xl;
+}
+
+.display-3 {
+  @apply text-6xl lg:text-7xl;
+}
+
+.paragraph {
+  @apply text-xl;
+  a {
+    @apply underline text-primary;
+  }
+}
+
+//buttons
+.button {
+  @apply px-10 py-3.5 rounded-md border-0 font-medium whitespace-nowrap flex items-center justify-center;
+  &:hover {
+    opacity: 0.8;
+  }
+  &__icon {
+    &-left {
+      @apply mr-3;
+    }
+    &-right {
+      @apply ml-3;
+    }
+  }
+
+  &--primary {
+    @apply text-white bg-primary;
+    &-alt{
+      @apply hover:text-white hover:bg-primary text-primary border border-primary;
+    }
+  }
+  &--secondary {
+    @apply text-white bg-secondary;
+  }
+  &--sm {
+    @apply text-sm px-6 py-2;
+  }
+  &--lg {
+    @apply text-lg py-3;
+  }
+}
+
+.no-scroll {
+  @apply overflow-y-hidden;
+}

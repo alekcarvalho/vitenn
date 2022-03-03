@@ -8,6 +8,7 @@ import Components from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import WindiCSS from 'vite-plugin-windicss'
+import { imagetools } from 'vite-imagetools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -39,6 +40,7 @@ export default defineConfig({
     Components(),
     Icons(),
     WindiCSS(),
+    imagetools(),
     AutoImport({
       imports: ['vue', 'vue-router', '@vueuse/head', '@vueuse/core'],
     }),
