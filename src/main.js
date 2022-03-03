@@ -4,6 +4,7 @@ import { createHead } from '@vueuse/head'
 import { createPinia } from 'pinia'
 import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
+import VueLazyLoad from 'vue3-lazyload'
 import App from './App.vue'
 
 // windicss layers
@@ -24,5 +25,9 @@ const pinia = createPinia()
 app.use(router)
 app.use(head)
 app.use(pinia)
+
+app.use(VueLazyLoad, {
+  // options...
+})
 
 app.mount('#app')

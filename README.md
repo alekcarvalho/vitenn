@@ -27,7 +27,13 @@
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
-- 🎇  [Image tools](https://github.com/JonasKruckenberg/imagetools) - A toolbox of import directives for vitejs that can transform your image at compile-time
+- 🎇 [Image tools](https://github.com/JonasKruckenberg/imagetools) - A toolbox of import directives for vitejs that can transform your image at compile-time
+
+- 🗾 [Image Lazyload](https://github.com/murongg/vue3-lazyload) - A vue3.x image lazyload plugin
+
+- 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more woof!
+
+- 🚀 [Eslint + Prettier](https://eslint.org/) - Improving your project with Elint + Prettier
 
 <br>
 

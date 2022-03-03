@@ -15,8 +15,12 @@
         count STORE is: {{ counter.count }}
       </button>
     </div>
-    <div class="image">
-      <img :src="Image" alt="imagem" />
+    <div class="images">
+      <img
+        v-lazy="{
+          src: Image,
+        }"
+      />
     </div>
   </div>
 </template>
@@ -51,6 +55,13 @@ const counter = useCounterStore()
   @apply flex flex-row justify-center;
   button {
     @apply mr-3;
+  }
+}
+
+.images {
+  @apply w-full flex justify-center items-center mt-20;
+  img {
+    @apply rounded-md;
   }
 }
 </style>
