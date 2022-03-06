@@ -1,6 +1,6 @@
-<center>
-<p>Opinionated Vite Starter Template<p>
-</center>
+<p align="center">
+  Opinionated Vite Starter Template
+</p>
 
 ## Features
 
