@@ -1,5 +1,5 @@
 <center>
-<h1>Vitenn</h1>
+<p>Opinionated Vite Starter Template<p>
 </center>
 
 ## Features
