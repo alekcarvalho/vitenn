@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <div class="description">Opinionated Vite Starter Template</div>
     <div class="buttons">
       <button class="button button--primary" type="button" @click="count++">
         <icon-flash class="button__icon-left" />
@@ -14,13 +13,6 @@
         <icon-cube class="button__icon-left" />
         count STORE is: {{ counter.count }}
       </button>
-    </div>
-    <div class="images">
-      <img
-        v-lazy="{
-          src: Image,
-        }"
-      />
     </div>
   </div>
 </template>
@@ -36,7 +28,6 @@
 import IconFlash from '~icons/eva/flash-outline'
 import IconCube from '~icons/eva/cube-outline'
 import { useCounterStore } from '~/stores/counter'
-import Image from '~/assets/images/folks.jpg?w=400&h=300&webp'
 
 //data
 const count = ref(0)
@@ -48,20 +39,13 @@ const counter = useCounterStore()
 </script>
 
 <style lang="scss" scoped>
-.description {
-  @apply text-center mb-8 text-xl font-extralight text-blue-900;
-}
 .buttons {
-  @apply flex flex-row justify-center;
+  @apply flex flex-row justify-center flex-wrap;
   button {
-    @apply mr-3;
-  }
-}
-
-.images {
-  @apply w-full flex justify-center items-center mt-20;
-  img {
-    @apply rounded-md;
+    @apply;
+    &:first-child {
+      @apply mr-3 mb-4 sm:mb-0;
+    }
   }
 }
 </style>

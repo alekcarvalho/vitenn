@@ -2,7 +2,6 @@
 <h1>Vitenn</h1>
 </center>
 
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
@@ -35,9 +34,11 @@
 
 - 🚀 [Eslint + Prettier](https://eslint.org/) - Improving your project with Elint + Prettier
 
+- 📡 [Axios](https://axios-http.com/) - A simple promise based HTTP client for the browser and node.js
+
 <br>
 
-> Vitex requires Node >=14
+> Vitenn requires Node >=14
 
 <br>
 

@@ -1,4 +1,10 @@
+//main
 @import "variables";
 @import "mixins";
 @import "fonts";
+
+//components
+@import "components/tooltip";
+
+//personal
 @import "common"

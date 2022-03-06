@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <div class="logo-body">
+    <router-link class="logo-body" :to="{ name: 'home' }">
       <svg
         id="Layer_1"
         version="1.1"
@@ -12,8 +12,6 @@
         viewBox="0 0 89.9 58.7"
         style="enable-background: new 0 0 89.9 58.7"
         xml:space="preserve"
-        :width="width"
-        :height="height"
       >
         <path
           d="M22.5,0L0.1,22.3l7.3,7.3l15-15l15,15l15-15l15,15L89.9,7.2L82.6,0l-15,15L52.5,0l-15,15L22.5,0z"
@@ -23,31 +21,18 @@
         />
       </svg>
       Vitenn
-    </div>
+    </router-link>
   </div>
 </template>
 
-<script setup>
-defineProps({
-  width: {
-    default: 86,
-    type: Number,
-  },
-  height: {
-    default: 86,
-    type: Number,
-  },
-})
-</script>
-
 <style lang="scss" scoped>
 .logo {
-  @apply w-full flex flex-col justify-center items-center text-center pt-14 uppercase text-4xl font-bold text-white;
+  @apply w-full flex flex-col justify-center items-center text-center pt-14 uppercase text-2xl font-bold text-white sm:text-4xl;
   &-body {
-    @apply w-52 h-52 flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-indigo-500 to-primary;
+    @apply flex flex-col justify-center items-center rounded-md bg-gradient-to-r from-indigo-500 to-primary w-32 h-32 sm:w-48 sm:h-48;
   }
   svg {
-    @apply fill-current text-white;
+    @apply fill-current text-white mb-2 w-13 sm:w-20;
   }
 }
 </style>
