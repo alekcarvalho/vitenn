@@ -1,6 +1,10 @@
 <p align="center">
-  Opinionated Vite Starter Template
+  <img src="https://ik.imagekit.io/vitenn/logo_7Q2HVUThr_q7VrLnsbq0.png">
 </p>
+
+<br>
+<hr>
+<br>
 
 ## Features
 
