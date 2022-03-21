@@ -2,8 +2,13 @@
   <img src="https://ik.imagekit.io/vitenn/logo_7Q2HVUThr_q7VrLnsbq0.png">
 </p>
 
+<p align="center">
+  Mocking up web app with Vitenn
+</p>
+
+
+
 <br>
-<hr>
 <br>
 
 ## Features
