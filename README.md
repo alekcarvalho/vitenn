@@ -6,8 +6,6 @@
   Mocking up web app with Vitenn
 </p>
 
-
-
 <br>
 <br>
 
@@ -38,6 +36,8 @@
 - 🎇 [Image tools](https://github.com/JonasKruckenberg/imagetools) - A toolbox of import directives for vitejs that can transform your image at compile-time
 
 - 🗾 [Image Lazyload](https://github.com/murongg/vue3-lazyload) - A vue3.x image lazyload plugin
+
+- 🍭 [Content loader](https://github.com/egoist/vue-content-loader) - SVG component to create placeholder loading, like Facebook cards loading.
 
 - 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more woof!
 
