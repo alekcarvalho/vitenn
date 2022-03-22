@@ -18,10 +18,13 @@
         </tbody>
       </table>
       <div v-else class="placeholder">
-        <bullet-list-loader
-          v-for="(item, index) in 4"
+        <content-loader
+          v-for="index in 4"
           :key="index"
-        ></bullet-list-loader>
+          :image="false"
+          :header="false"
+          :text="true"
+        />
       </div>
     </div>
   </div>
@@ -35,7 +38,7 @@
 </route>
 
 <script setup>
-import { BulletListLoader } from 'vue-content-loader'
+import ContentLoader from '../components/atoms/content-loader.vue'
 //injects
 const $http = inject('$http')
 
@@ -65,9 +68,6 @@ onMounted(() => {
 }
 
 .placeholder {
-  @apply w-lg;
-  svg {
-    @apply ml-1/4;
-  }
+  @apply w-sm;
 }
 </style>

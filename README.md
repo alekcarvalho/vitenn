@@ -37,13 +37,13 @@
 
 - 🗾 [Image Lazyload](https://github.com/murongg/vue3-lazyload) - A vue3.x image lazyload plugin
 
-- 🍭 [Content loader](https://github.com/egoist/vue-content-loader) - SVG component to create placeholder loading, like Facebook cards loading.
-
 - 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more woof!
 
 - 🚀 [Eslint + Prettier](https://eslint.org/) - Improving your project with Elint + Prettier
 
 - 📡 [Axios](https://axios-http.com/) - A simple promise based HTTP client for the browser and node.js
+
+- 🍭 Content loader - SVG component to create placeholder loading, like Facebook cards loading.
 
 <br>
 
