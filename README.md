@@ -43,7 +43,7 @@
 
 - 📡 [Axios](https://axios-http.com/) - A simple promise based HTTP client for the browser and node.js
 
-- 🍭 Content loader - Components to create placeholder loading, like Facebook cards loading.
+- 🍭 Mix tools - Content placeholder loading, Tooltips and more
 
 <br>
 

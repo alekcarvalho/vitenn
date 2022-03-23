@@ -24,6 +24,7 @@
           :image="false"
           :header="false"
           :text="true"
+          :lines="4"
         />
       </div>
     </div>
