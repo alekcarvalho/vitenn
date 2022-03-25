@@ -49,7 +49,7 @@ const users = ref([])
 //methods
 const getData = async () => {
   loading.value = true
-  await $http.get('https://jsonplaceholder.typicode.com/users').then((res) => {
+  await $http.get(`${import.meta.env.VITE_API_URL}/users`).then((res) => {
     setTimeout(() => {
       users.value = res.data
       loading.value = false
