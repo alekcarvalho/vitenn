@@ -22,7 +22,7 @@
           v-for="index in 4"
           :key="index"
           :image="false"
-          :header="false"
+          :header="true"
           :text="true"
           :lines="4"
         />
@@ -53,7 +53,7 @@ const getData = async () => {
     setTimeout(() => {
       users.value = res.data
       loading.value = false
-    }, 3000)
+    }, 53000)
   })
 }
 

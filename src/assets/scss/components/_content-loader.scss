@@ -64,9 +64,9 @@
 
   &__avatar {
     @include vue-content-placeholders;
-    width: 4 * $vue-content-placeholders-line-height + 3 *
+    width: 3 * $vue-content-placeholders-line-height + 3 *
       $vue-content-placeholders-spacing;
-    height: 4 * $vue-content-placeholders-line-height + 3 *
+    height: 3 * $vue-content-placeholders-line-height + 3 *
       $vue-content-placeholders-spacing;
     margin-right: 1.5 * $vue-content-placeholders-spacing;
   }
