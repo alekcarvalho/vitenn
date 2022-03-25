@@ -53,7 +53,7 @@ const getData = async () => {
     setTimeout(() => {
       users.value = res.data
       loading.value = false
-    }, 53000)
+    }, 3000)
   })
 }
 
