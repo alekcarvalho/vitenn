@@ -63,15 +63,15 @@ Just run and visit http://localhost:3000
 npm run dev
 ```
 
-### Tests
+### Test
 
-Unit test:
+Unit Testing:
 
 ```bash
 npm run test or npm run test:unit
 ```
 
-E2E test:
+E2E testing:
 
 ```bash
 npm run test:e2e
