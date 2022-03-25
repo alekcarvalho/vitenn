@@ -22,7 +22,7 @@
           v-for="index in 4"
           :key="index"
           :image="false"
-          :header="true"
+          :header="false"
           :text="true"
           :lines="4"
         />
