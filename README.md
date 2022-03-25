@@ -45,6 +45,8 @@
 
 - 🍭 Mix tools - Content placeholder loading, Tooltips and more
 
+- ⚙️ Unit Testing with [Vitest](https://vitest.dev/), E2E Testing with [Cypress](https://www.cypress.io/)
+
 <br>
 
 > Vitenn requires Node >=14
@@ -59,6 +61,20 @@ Just run and visit http://localhost:3000
 
 ```bash
 npm run dev
+```
+
+### Tests
+
+Unit test:
+
+```bash
+npm run test or npm run test:unit
+```
+
+E2E test:
+
+```bash
+npm run test:e2e
 ```
 
 ### Build

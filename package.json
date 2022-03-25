@@ -3,16 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite --port 3333 --host --open",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:e2e": "cypress open",
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@unocss/reset": "^0.27.1",
     "@vueuse/core": "^7.7.0",
     "@vueuse/head": "^0.7.5",
     "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
     "pinia": "^2.0.11",
     "vue": "^3.2.25",
     "vue-router": "^4.0.13",
@@ -20,13 +24,18 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.8",
+    "@pinia/testing": "0.0.10",
     "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "cypress": "^9.5.2",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^7.0.4",
+    "jsdom": "^19.0.0",
     "prettier": "^2.5.1",
     "sass": "^1.49.9",
     "unplugin-auto-import": "^0.6.1",
@@ -38,6 +47,7 @@
     "vite-plugin-pwa": "^0.11.13",
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-plugin-windicss": "^1.8.1",
+    "vitest": "^0.7.11",
     "windicss": "^3.5.0"
   },
   "lint-staged": {

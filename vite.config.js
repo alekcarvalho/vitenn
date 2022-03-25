@@ -72,4 +72,11 @@ export default defineConfig({
       },
     }),
   ],
+  test: {
+    include: ['test/**/*.test.js'],
+    environment: 'jsdom',
+    deps: {
+      inline: ['@vue', '@vueuse', 'vue-demi'],
+    },
+  },
 })
