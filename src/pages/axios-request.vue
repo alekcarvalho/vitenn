@@ -39,6 +39,13 @@
 </route>
 
 <script setup>
+import { customHead } from '~/utils/head'
+
+//head
+customHead({
+  title: 'Axios Request',
+})
+
 //injects
 const $http = inject('$http')
 

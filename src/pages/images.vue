@@ -19,6 +19,12 @@
 
 <script setup>
 import Image from '~/assets/images/folks.jpg?w=400&h=300&webp'
+import { customHead } from '~/utils/head'
+
+//head
+customHead({
+  title: 'Images',
+})
 </script>
 
 <style lang="scss" scoped>
