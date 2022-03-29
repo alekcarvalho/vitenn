@@ -39,7 +39,6 @@
 </route>
 
 <script setup>
-import ContentLoader from '~/components/atoms/ContentLoader'
 //injects
 const $http = inject('$http')
 
