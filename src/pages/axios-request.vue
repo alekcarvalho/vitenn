@@ -39,7 +39,7 @@
 </route>
 
 <script setup>
-import ContentLoader from '../components/atoms/content-loader.vue'
+import ContentLoader from '~/components/atoms/ContentLoader'
 //injects
 const $http = inject('$http')
 
