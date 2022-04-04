@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import { createHead } from '@vueuse/head'
-import { http, httpAuth } from '~/services/http'
+import { http } from '~/services/http'
 import { createPinia } from 'pinia'
 import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
@@ -30,7 +30,6 @@ app.use(VueLazyLoad)
 
 //provides
 app.provide('$http', http)
-app.provide('$httpAuth', httpAuth)
 
 //mount app
 app.mount('#app')

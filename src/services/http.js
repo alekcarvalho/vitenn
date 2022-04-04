@@ -1,11 +1,7 @@
 import axios from 'axios'
 
-//regular axios
-export const http = axios.create()
+// API base url
+axios.defaults.baseURL = import.meta.env.VITE_API_URL
 
-//axios Token
-export const httpAuth = axios.create({
-  headers: {
-    Authorization: `Bearer token`,
-  },
-})
+// create axios instance
+export const http = axios.create()

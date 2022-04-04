@@ -55,7 +55,7 @@ const users = ref([])
 //methods
 const getData = async () => {
   loading.value = true
-  await $http.get(`${import.meta.env.VITE_API_URL}/users`).then((res) => {
+  await $http.get(`/users`).then((res) => {
     setTimeout(() => {
       users.value = res.data
       loading.value = false
