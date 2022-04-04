@@ -43,7 +43,7 @@
 
 - 📡 [Axios](https://axios-http.com/) - A simple promise based HTTP client for the browser and node.js
 
-- 🍭 Mix tools - Content placeholder loading, Tooltips and more
+- 🍭 Mix tools - Content placeholder loading, Tooltips, Form validators and more
 
 - ⚙️ Unit Testing with [Vitest](https://vitest.dev/), E2E Testing with [Cypress](https://www.cypress.io/)
 
