@@ -19,7 +19,7 @@
 
 - 📦 [Components auto importing](./src/components)
 
-- 🍍 [State Management via Pinia](https://pinia.esm.dev/)
+- 🍍 [State Management via Pinia with persist state](https://pinia.esm.dev/)
 
 - 📑 [Layout system](./src/layouts)
 
