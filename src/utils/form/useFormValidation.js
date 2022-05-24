@@ -1,18 +1,18 @@
 import { reactive } from '@vue/reactivity'
 import useValidators from '~/utils/form/validators'
 
-const errors = reactive({})
-errors.form = []
-
-const removeElement = (item) => {
-  const arr = errors.form
-  const index = errors.form.indexOf(item)
-  if (index > -1) {
-    return arr.splice(index, 1)
-  }
-}
-
 export default function useFormValidation() {
+  const errors = reactive({})
+  errors.form = []
+
+  const removeElement = (item) => {
+    const arr = errors.form
+    const index = errors.form.indexOf(item)
+    if (index > -1) {
+      return arr.splice(index, 1)
+    }
+  }
+
   const { isEmpty, minLength, isEmail, isNum } = useValidators()
 
   const validateNameField = (fieldName, fieldValue) => {
